@@ -1,0 +1,4 @@
+dbt-core==1.4.6
+dbt-sqlserver==1.4.3
+dbt-postgres==1.4.6
+shandy-sqlfmt[jinjafmt]==0.19.1

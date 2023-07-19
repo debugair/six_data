@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: marketdata
+    database: MarketData
+    schema: six
+    tables:
+      - name: BlueChipsClosing

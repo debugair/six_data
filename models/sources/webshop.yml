@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: webshop
+    database: Willibald
+    schema: dbo
+    tables:
+      - name: Kunde
+      - name: Bestellung
+      - name: Produkt
+      - name: Position

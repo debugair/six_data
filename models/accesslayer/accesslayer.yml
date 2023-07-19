@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: dim_instrument
+    columns:
+      - name: ISIN
+        description: the instruments ISIN
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_issuer
+    columns:
+      - name: IssuerNameFull
+        description: The full name of an issuer
+        tests:
+          - not_null
